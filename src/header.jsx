@@ -3,42 +3,42 @@ import React from "react";
 function Header() {
   return (
     <div>
-      <header class="header header-border">
-        <div class="header-top">
-          <div class="container">
-            <div class="header-left">
-              <p class="welcome-msg">
+      <header className="header header-border">
+        <div className="header-top">
+          <div className="container">
+            <div className="header-left">
+              <p className="welcome-msg">
                 Welcome to Wolmart Store message or remove it!
               </p>
             </div>
-            <div class="header-right">
-              <div class="dropdown">
+            <div className="header-right">
+              <div className="dropdown">
                 <a href="#currency">USD</a>
-                <div class="dropdown-box">
+                <div className="dropdown-box">
                   <a href="#USD">USD</a>
                   <a href="#EUR">EUR</a>
                 </div>
               </div>
 
-              <div class="dropdown">
+              <div className="dropdown">
                 <a href="#language">
                   <img
                     src="assets/images/flags/eng.png"
                     alt="ENG Flag"
                     width="14"
                     height="8"
-                    class="dropdown-image"
+                    className="dropdown-image"
                   />{" "}
                   ENG
                 </a>
-                <div class="dropdown-box">
+                <div className="dropdown-box">
                   <a href="#ENG">
                     <img
                       src="./images/flags/eng.png"
                       alt="ENG Flag"
                       width="14"
                       height="8"
-                      class="dropdown-image"
+                      className="dropdown-image"
                     />
                     ENG
                   </a>
@@ -48,44 +48,47 @@ function Header() {
                       alt="FRA Flag"
                       width="14"
                       height="8"
-                      class="dropdown-image"
+                      className="dropdown-image"
                     />
                     FRA
                   </a>
                 </div>
               </div>
-              <span class="divider d-lg-show"></span>
-              <a href="blog.html" class="d-lg-show">
+              <span className="divider d-lg-show"></span>
+              <a href="blog.html" classNameName="d-lg-show">
                 Blog
               </a>
-              <a href="contact-us.html" class="d-lg-show">
+              <a href="contact-us.html" classNameName="d-lg-show">
                 Contact Us
               </a>
-              <a href="my-account.html" class="d-lg-show">
+              <a href="my-account.html" classNameName="d-lg-show">
                 My Account
               </a>
-              <a href="assets/ajax/login.html" class="d-lg-show login sign-in">
-                <i class="w-icon-account"></i>Sign In
-              </a>
-              <span class="delimiter d-lg-show">/</span>
               <a
                 href="assets/ajax/login.html"
-                class="ml-0 d-lg-show login register"
+                classNameName="d-lg-show login sign-in"
+              >
+                <i classNameName="w-icon-account"></i>Sign In
+              </a>
+              <span className="delimiter d-lg-show">/</span>
+              <a
+                href="assets/ajax/login.html"
+                className="ml-0 d-lg-show login register"
               >
                 Register
               </a>
             </div>
           </div>
         </div>
-        <div class="header-middle">
-          <div class="container">
-            <div class="header-left mr-md-4">
+        <div className="header-middle">
+          <div className="container">
+            <div className="header-left mr-md-4">
               <a
                 href="#"
-                class="mobile-menu-toggle  w-icon-hamburger"
+                className="mobile-menu-toggle  w-icon-hamburger"
                 aria-label="menu-toggle"
               ></a>
-              <a href="demo1.html" class="logo ml-lg-0">
+              <a href="demo1.html" className="logo ml-lg-0">
                 <img
                   src="./images/logo.png"
                   alt="logo"
@@ -96,9 +99,9 @@ function Header() {
               <form
                 method="get"
                 action="#"
-                class="header-search hs-expanded hs-round d-none d-md-flex input-wrapper"
+                className="header-search hs-expanded hs-round d-none d-md-flex input-wrapper"
               >
-                <div class="select-box">
+                <div className="select-box">
                   <select id="category" name="category">
                     <option value="">All Categories</option>
                     <option value="4">Fashion</option>
@@ -114,73 +117,79 @@ function Header() {
                 </div>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   name="search"
                   id="search"
                   placeholder="Search in..."
                   required
                 />
-                <button class="btn btn-search" type="submit">
-                  <i class="w-icon-search"></i>
+                <button className="btn btn-search" type="submit">
+                  <i className="w-icon-search"></i>
                 </button>
               </form>
             </div>
-            <div class="header-right ml-4">
-              <div class="header-call d-xs-show d-lg-flex align-items-center">
-                <a href="tel:#" class="w-icon-call"></a>
-                <div class="call-info d-lg-show">
-                  <h4 class="chat font-weight-normal font-size-md text-normal ls-normal text-light mb-0">
-                    <a href="mailto:#" class="text-capitalize">
+            <div className="header-right ml-4">
+              <div className="header-call d-xs-show d-lg-flex align-items-center">
+                <a href="tel:#" className="w-icon-call"></a>
+                <div className="call-info d-lg-show">
+                  <h4 className="chat font-weight-normal font-size-md text-normal ls-normal text-light mb-0">
+                    <a href="mailto:#" className="text-capitalize">
                       Live Chat
                     </a>{" "}
                     or :
                   </h4>
-                  <a href="tel:#" class="phone-number font-weight-bolder ls-50">
+                  <a
+                    href="tel:#"
+                    className="phone-number font-weight-bolder ls-50"
+                  >
                     0(800)123-456
                   </a>
                 </div>
               </div>
               <a
-                class="wishlist label-down link d-xs-show"
+                className="wishlist label-down link d-xs-show"
                 href="wishlist.html"
               >
-                <i class="w-icon-heart"></i>
-                <span class="wishlist-label d-lg-show">Wishlist</span>
+                <i className="w-icon-heart"></i>
+                <span className="wishlist-label d-lg-show">Wishlist</span>
               </a>
-              <a class="compare label-down link d-xs-show" href="compare.html">
-                <i class="w-icon-compare"></i>
-                <span class="compare-label d-lg-show">Compare</span>
+              <a
+                className="compare label-down link d-xs-show"
+                href="compare.html"
+              >
+                <i className="w-icon-compare"></i>
+                <span className="compare-label d-lg-show">Compare</span>
               </a>
-              <div class="dropdown cart-dropdown cart-offcanvas mr-0 mr-lg-2">
-                <div class="cart-overlay"></div>
-                <a href="#" class="cart-toggle label-down link">
-                  <i class="w-icon-cart">
-                    <span class="cart-count">2</span>
+              <div className="dropdown cart-dropdown cart-offcanvas mr-0 mr-lg-2">
+                <div className="cart-overlay"></div>
+                <a href="#" className="cart-toggle label-down link">
+                  <i className="w-icon-cart">
+                    <span className="cart-count">2</span>
                   </i>
-                  <span class="cart-label">Cart</span>
+                  <span className="cart-label">Cart</span>
                 </a>
-                <div class="dropdown-box">
-                  <div class="cart-header">
+                <div className="dropdown-box">
+                  <div className="cart-header">
                     <span>Shopping Cart</span>
-                    <a href="#" class="btn-close">
-                      Close<i class="w-icon-long-arrow-right"></i>
+                    <a href="#" className="btn-close">
+                      Close<i className="w-icon-long-arrow-right"></i>
                     </a>
                   </div>
 
-                  <div class="products">
-                    <div class="product product-cart">
-                      <div class="product-detail">
-                        <a href="product-default.html" class="product-name">
+                  <div className="products">
+                    <div className="product product-cart">
+                      <div className="product-detail">
+                        <a href="product-default.html" className="product-name">
                           Beige knitted elas
                           <br />
                           tic runner shoes
                         </a>
-                        <div class="price-box">
-                          <span class="product-quantity">1</span>
-                          <span class="product-price">$25.68</span>
+                        <div className="price-box">
+                          <span className="product-quantity">1</span>
+                          <span className="product-price">$25.68</span>
                         </div>
                       </div>
-                      <figure class="product-media">
+                      <figure className="product-media">
                         <a href="product-default.html">
                           <img
                             src="./images/cart/product-1.jpg"
@@ -191,26 +200,26 @@ function Header() {
                         </a>
                       </figure>
                       <button
-                        class="btn btn-link btn-close"
+                        className="btn btn-link btn-close"
                         aria-label="button"
                       >
-                        <i class="fas fa-times"></i>
+                        <i className="fas fa-times"></i>
                       </button>
                     </div>
 
-                    <div class="product product-cart">
-                      <div class="product-detail">
-                        <a href="product-default.html" class="product-name">
+                    <div className="product product-cart">
+                      <div className="product-detail">
+                        <a href="product-default.html" className="product-name">
                           Blue utility pina
                           <br />
                           fore denim dress
                         </a>
-                        <div class="price-box">
-                          <span class="product-quantity">1</span>
-                          <span class="product-price">$32.99</span>
+                        <div className="price-box">
+                          <span className="product-quantity">1</span>
+                          <span className="product-price">$32.99</span>
                         </div>
                       </div>
-                      <figure class="product-media">
+                      <figure className="product-media">
                         <a href="product-default.html">
                           <img
                             src="./images/cart/product-2.jpg"
@@ -221,29 +230,29 @@ function Header() {
                         </a>
                       </figure>
                       <button
-                        class="btn btn-link btn-close"
+                        className="btn btn-link btn-close"
                         aria-label="button"
                       >
-                        <i class="fas fa-times"></i>
+                        <i className="fas fa-times"></i>
                       </button>
                     </div>
                   </div>
 
-                  <div class="cart-total">
+                  <div className="cart-total">
                     <label>Subtotal:</label>
-                    <span class="price">$58.67</span>
+                    <span className="price">$58.67</span>
                   </div>
 
-                  <div class="cart-action">
+                  <div className="cart-action">
                     <a
                       href="cart.html"
-                      class="btn btn-dark btn-outline btn-rounded"
+                      className="btn btn-dark btn-outline btn-rounded"
                     >
                       View Cart
                     </a>
                     <a
                       href="checkout.html"
-                      class="btn btn-primary  btn-rounded"
+                      className="btn btn-primary  btn-rounded"
                     >
                       Checkout
                     </a>
@@ -254,17 +263,17 @@ function Header() {
           </div>
         </div>
 
-        <div class="header-bottom sticky-content fix-top sticky-header">
-          <div class="container">
-            <div class="inner-wrap">
-              <div class="header-left">
+        <div className="header-bottom sticky-content fix-top sticky-header">
+          <div className="container">
+            <div className="inner-wrap">
+              <div className="header-left">
                 <div
-                  class="dropdown category-dropdown has-border"
+                  className="dropdown category-dropdown has-border"
                   data-visible="true"
                 >
                   <a
                     href="#"
-                    class="category-toggle"
+                    className="category-toggle"
                     role="button"
                     data-toggle="dropdown"
                     aria-haspopup="true"
@@ -272,20 +281,20 @@ function Header() {
                     data-display="static"
                     title="Browse Categories"
                   >
-                    <i class="w-icon-category"></i>
+                    <i className="w-icon-category"></i>
                     <span>Browse Categories</span>
                   </a>
 
-                  <div class="dropdown-box">
-                    <ul class="menu vertical-menu category-menu">
+                  <div className="dropdown-box">
+                    <ul className="menu vertical-menu category-menu">
                       <li>
                         <a href="shop-fullwidth-banner.html">
-                          <i class="w-icon-tshirt2"></i>Fashion
+                          <i className="w-icon-tshirt2"></i>Fashion
                         </a>
-                        <ul class="megamenu">
+                        <ul className="megamenu">
                           <li>
-                            <h4 class="menu-title">Women</h4>
-                            <hr class="divider" />
+                            <h4 className="menu-title">Women</h4>
+                            <hr className="divider" />
                             <ul>
                               <li>
                                 <a href="shop-fullwidth-banner.html">
@@ -329,8 +338,8 @@ function Header() {
                             </ul>
                           </li>
                           <li>
-                            <h4 class="menu-title">Men</h4>
-                            <hr class="divider" />
+                            <h4 className="menu-title">Men</h4>
+                            <hr className="divider" />
                             <ul>
                               <li>
                                 <a href="shop-fullwidth-banner.html">
@@ -371,7 +380,7 @@ function Header() {
                             </ul>
                           </li>
                           <li>
-                            <div class="banner-fixed menu-banner menu-banner2">
+                            <div className="banner-fixed menu-banner menu-banner2">
                               <figure>
                                 <img
                                   src="./images/menu/banner-2.jpg"
@@ -380,22 +389,22 @@ function Header() {
                                   height="347"
                                 />
                               </figure>
-                              <div class="banner-content">
-                                <div class="banner-price-info mb-1 ls-normal">
+                              <div className="banner-content">
+                                <div className="banner-price-info mb-1 ls-normal">
                                   Get up to
-                                  <strong class="text-primary text-uppercase">
+                                  <strong className="text-primary text-uppercase">
                                     20%Off
                                   </strong>
                                 </div>
-                                <h3 class="banner-title ls-normal">
+                                <h3 className="banner-title ls-normal">
                                   Hot Sales
                                 </h3>
                                 <a
                                   href="shop-banner-sidebar.html"
-                                  class="btn btn-dark btn-sm btn-link btn-slide-right btn-icon-right"
+                                  className="btn btn-dark btn-sm btn-link btn-slide-right btn-icon-right"
                                 >
                                   Shop Now
-                                  <i class="w-icon-long-arrow-right"></i>
+                                  <i className="w-icon-long-arrow-right"></i>
                                 </a>
                               </div>
                             </div>
@@ -404,12 +413,12 @@ function Header() {
                       </li>
                       <li>
                         <a href="shop-fullwidth-banner.html">
-                          <i class="w-icon-home"></i>Home & Garden
+                          <i className="w-icon-home"></i>Home & Garden
                         </a>
-                        <ul class="megamenu">
+                        <ul className="megamenu">
                           <li>
-                            <h4 class="menu-title">Bedroom</h4>
-                            <hr class="divider" />
+                            <h4 className="menu-title">Bedroom</h4>
+                            <hr className="divider" />
                             <ul>
                               <li>
                                 <a href="shop-fullwidth-banner.html">
@@ -438,8 +447,8 @@ function Header() {
                               </li>
                             </ul>
 
-                            <h4 class="menu-title mt-1">Living Room</h4>
-                            <hr class="divider" />
+                            <h4 className="menu-title mt-1">Living Room</h4>
+                            <hr className="divider" />
                             <ul>
                               <li>
                                 <a href="shop-fullwidth-banner.html">
@@ -465,8 +474,8 @@ function Header() {
                             </ul>
                           </li>
                           <li>
-                            <h4 class="menu-title">Office</h4>
-                            <hr class="divider" />
+                            <h4 className="menu-title">Office</h4>
+                            <hr className="divider" />
                             <ul>
                               <li>
                                 <a href="shop-fullwidth-banner.html">
@@ -493,8 +502,10 @@ function Header() {
                               </li>
                             </ul>
 
-                            <h4 class="menu-title mt-1">Kitchen & Dining</h4>
-                            <hr class="divider" />
+                            <h4 className="menu-title mt-1">
+                              Kitchen & Dining
+                            </h4>
+                            <hr className="divider" />
                             <ul>
                               <li>
                                 <a href="shop-fullwidth-banner.html">
@@ -529,7 +540,7 @@ function Header() {
                             </ul>
                           </li>
                           <li>
-                            <div class="menu-banner banner-fixed menu-banner3">
+                            <div className="menu-banner banner-fixed menu-banner3">
                               <figure>
                                 <img
                                   src="./images/menu/banner-3.jpg"
@@ -538,25 +549,25 @@ function Header() {
                                   height="461"
                                 />
                               </figure>
-                              <div class="banner-content">
-                                <h4 class="banner-subtitle font-weight-normal text-white mb-1">
+                              <div className="banner-content">
+                                <h4 className="banner-subtitle font-weight-normal text-white mb-1">
                                   Restroom
                                 </h4>
-                                <h3 class="banner-title font-weight-bolder text-white ls-normal">
+                                <h3 className="banner-title font-weight-bolder text-white ls-normal">
                                   Furniture Sale
                                 </h3>
-                                <div class="banner-price-info text-white font-weight-normal ls-25">
+                                <div className="banner-price-info text-white font-weight-normal ls-25">
                                   Up to{" "}
-                                  <span class="text-secondary text-uppercase font-weight-bold">
+                                  <span className="text-secondary text-uppercase font-weight-bold">
                                     25% Off
                                   </span>
                                 </div>
                                 <a
                                   href="shop-banner-sidebar.html"
-                                  class="btn btn-white btn-link btn-sm btn-slide-right btn-icon-right"
+                                  className="btn btn-white btn-link btn-sm btn-slide-right btn-icon-right"
                                 >
                                   Shop Now
-                                  <i class="w-icon-long-arrow-right"></i>
+                                  <i className="w-icon-long-arrow-right"></i>
                                 </a>
                               </div>
                             </div>
@@ -565,12 +576,14 @@ function Header() {
                       </li>
                       <li>
                         <a href="shop-fullwidth-banner.html">
-                          <i class="w-icon-electronics"></i>Electronics
+                          <i className="w-icon-electronics"></i>Electronics
                         </a>
-                        <ul class="megamenu">
+                        <ul className="megamenu">
                           <li>
-                            <h4 class="menu-title">Laptops &amp; Computers</h4>
-                            <hr class="divider" />
+                            <h4 className="menu-title">
+                              Laptops &amp; Computers
+                            </h4>
+                            <hr className="divider" />
                             <ul>
                               <li>
                                 <a href="shop-fullwidth-banner.html">
@@ -597,8 +610,8 @@ function Header() {
                               </li>
                             </ul>
 
-                            <h4 class="menu-title mt-1">TV &amp; Video</h4>
-                            <hr class="divider" />
+                            <h4 className="menu-title mt-1">TV &amp; Video</h4>
+                            <hr className="divider" />
                             <ul>
                               <li>
                                 <a href="shop-fullwidth-banner.html">TVs</a>
@@ -621,8 +634,8 @@ function Header() {
                             </ul>
                           </li>
                           <li>
-                            <h4 class="menu-title">Digital Cameras</h4>
-                            <hr class="divider" />
+                            <h4 className="menu-title">Digital Cameras</h4>
+                            <hr className="divider" />
                             <ul>
                               <li>
                                 <a href="shop-fullwidth-banner.html">
@@ -651,8 +664,8 @@ function Header() {
                               </li>
                             </ul>
 
-                            <h4 class="menu-title mt-1">Cell Phones</h4>
-                            <hr class="divider" />
+                            <h4 className="menu-title mt-1">Cell Phones</h4>
+                            <hr className="divider" />
                             <ul>
                               <li>
                                 <a href="shop-fullwidth-banner.html">
@@ -677,7 +690,7 @@ function Header() {
                             </ul>
                           </li>
                           <li>
-                            <div class="menu-banner banner-fixed menu-banner4">
+                            <div className="menu-banner banner-fixed menu-banner4">
                               <figure>
                                 <img
                                   src="./images/menu/banner-4.jpg"
@@ -686,19 +699,19 @@ function Header() {
                                   height="433"
                                 />
                               </figure>
-                              <div class="banner-content">
-                                <h4 class="banner-subtitle font-weight-normal">
+                              <div className="banner-content">
+                                <h4 className="banner-subtitle font-weight-normal">
                                   Deals Of The Week
                                 </h4>
-                                <h3 class="banner-title text-white">
+                                <h3 className="banner-title text-white">
                                   Save On Smart EarPhone
                                 </h3>
-                                <div class="banner-price-info text-secondary font-weight-bolder text-uppercase text-secondary">
+                                <div className="banner-price-info text-secondary font-weight-bolder text-uppercase text-secondary">
                                   20% Off
                                 </div>
                                 <a
                                   href="shop-banner-sidebar.html"
-                                  class="btn btn-white btn-outline btn-sm btn-rounded"
+                                  className="btn btn-white btn-outline btn-sm btn-rounded"
                                 >
                                   Shop Now
                                 </a>
@@ -709,13 +722,13 @@ function Header() {
                       </li>
                       <li>
                         <a href="shop-fullwidth-banner.html">
-                          <i class="w-icon-furniture"></i>Furniture
+                          <i className="w-icon-furniture"></i>Furniture
                         </a>
-                        <ul class="megamenu type2">
-                          <li class="row">
-                            <div class="col-md-3 col-lg-3 col-6">
-                              <h4 class="menu-title">Furniture</h4>
-                              <hr class="divider" />
+                        <ul className="megamenu type2">
+                          <li className="row">
+                            <div className="col-md-3 col-lg-3 col-6">
+                              <h4 className="menu-title">Furniture</h4>
+                              <hr className="divider" />
                               <ul>
                                 <li>
                                   <a href="shop-fullwidth-banner.html">
@@ -744,9 +757,9 @@ function Header() {
                                 </li>
                               </ul>
                             </div>
-                            <div class="col-md-3 col-lg-3 col-6">
-                              <h4 class="menu-title">Lighting</h4>
-                              <hr class="divider" />
+                            <div className="col-md-3 col-lg-3 col-6">
+                              <h4 className="menu-title">Lighting</h4>
+                              <hr className="divider" />
                               <ul>
                                 <li>
                                   <a href="shop-fullwidth-banner.html">
@@ -773,9 +786,9 @@ function Header() {
                                 </li>
                               </ul>
                             </div>
-                            <div class="col-md-3 col-lg-3 col-6">
-                              <h4 class="menu-title">Home Accessories</h4>
-                              <hr class="divider" />
+                            <div className="col-md-3 col-lg-3 col-6">
+                              <h4 className="menu-title">Home Accessories</h4>
+                              <hr className="divider" />
                               <ul>
                                 <li>
                                   <a href="shop-fullwidth-banner.html">
@@ -804,9 +817,9 @@ function Header() {
                                 </li>
                               </ul>
                             </div>
-                            <div class="col-md-3 col-lg-3 col-6">
-                              <h4 class="menu-title">Garden & Outdoors</h4>
-                              <hr class="divider" />
+                            <div className="col-md-3 col-lg-3 col-6">
+                              <h4 className="menu-title">Garden & Outdoors</h4>
+                              <hr className="divider" />
                               <ul>
                                 <li>
                                   <a href="shop-fullwidth-banner.html">
@@ -836,9 +849,9 @@ function Header() {
                               </ul>
                             </div>
                           </li>
-                          <li class="row">
-                            <div class="col-6">
-                              <div class="banner banner-fixed menu-banner5 br-xs">
+                          <li className="row">
+                            <div className="col-6">
+                              <div className="banner banner-fixed menu-banner5 br-xs">
                                 <figure>
                                   <img
                                     src="./images/menu/banner-5.jpg"
@@ -848,21 +861,21 @@ function Header() {
                                     style={{ backgroundColor: "#D2D2D2" }}
                                   />
                                 </figure>
-                                <div class="banner-content text-right y-50">
-                                  <h4 class="banner-subtitle font-weight-normal text-default text-capitalize">
+                                <div className="banner-content text-right y-50">
+                                  <h4 className="banner-subtitle font-weight-normal text-default text-capitalize">
                                     New Arrivals
                                   </h4>
-                                  <h3 class="banner-title font-weight-bolder text-capitalize ls-normal">
+                                  <h3 className="banner-title font-weight-bolder text-capitalize ls-normal">
                                     Amazing Sofa
                                   </h3>
-                                  <div class="banner-price-info font-weight-normal ls-normal">
+                                  <div className="banner-price-info font-weight-normal ls-normal">
                                     Starting at <strong>$125.00</strong>
                                   </div>
                                 </div>
                               </div>
                             </div>
-                            <div class="col-6">
-                              <div class="banner banner-fixed menu-banner5 br-xs">
+                            <div className="col-6">
+                              <div className="banner banner-fixed menu-banner5 br-xs">
                                 <figure>
                                   <img
                                     src="./images/menu/banner-6.jpg"
@@ -872,14 +885,14 @@ function Header() {
                                     style={{ backgroundColor: "#9F9888" }}
                                   />
                                 </figure>
-                                <div class="banner-content y-50">
-                                  <h4 class="banner-subtitle font-weight-normal text-white text-capitalize">
+                                <div className="banner-content y-50">
+                                  <h4 className="banner-subtitle font-weight-normal text-white text-capitalize">
                                     Best Seller
                                   </h4>
-                                  <h3 class="banner-title font-weight-bolder text-capitalize text-white ls-normal">
+                                  <h3 className="banner-title font-weight-bolder text-capitalize text-white ls-normal">
                                     Chair &amp; Lamp
                                   </h3>
-                                  <div class="banner-price-info font-weight-normal ls-normal text-white">
+                                  <div className="banner-price-info font-weight-normal ls-normal text-white">
                                     From <strong>$165.00</strong>
                                   </div>
                                 </div>
@@ -890,61 +903,62 @@ function Header() {
                       </li>
                       <li>
                         <a href="shop-fullwidth-banner.html">
-                          <i class="w-icon-heartbeat"></i>Healthy & Beauty
+                          <i className="w-icon-heartbeat"></i>Healthy & Beauty
                         </a>
                       </li>
                       <li>
                         <a href="shop-fullwidth-banner.html">
-                          <i class="w-icon-gift"></i>Gift Ideas
+                          <i className="w-icon-gift"></i>Gift Ideas
                         </a>
                       </li>
                       <li>
                         <a href="shop-fullwidth-banner.html">
-                          <i class="w-icon-gamepad"></i>Toy & Games
+                          <i className="w-icon-gamepad"></i>Toy & Games
                         </a>
                       </li>
                       <li>
                         <a href="shop-fullwidth-banner.html">
-                          <i class="w-icon-ice-cream"></i>Cooking
+                          <i className="w-icon-ice-cream"></i>Cooking
                         </a>
                       </li>
                       <li>
                         <a href="shop-fullwidth-banner.html">
-                          <i class="w-icon-ios"></i>Smart Phones
+                          <i className="w-icon-ios"></i>Smart Phones
                         </a>
                       </li>
                       <li>
                         <a href="shop-fullwidth-banner.html">
-                          <i class="w-icon-camera"></i>Cameras & Photo
+                          <i className="w-icon-camera"></i>Cameras & Photo
                         </a>
                       </li>
                       <li>
                         <a href="shop-fullwidth-banner.html">
-                          <i class="w-icon-ruby"></i>Accessories
+                          <i className="w-icon-ruby"></i>Accessories
                         </a>
                       </li>
                       <li>
                         <a
                           href="shop-banner-sidebar.html"
-                          class="font-weight-bold text-primary text-uppercase ls-25"
+                          className="font-weight-bold text-primary text-uppercase ls-25"
                         >
-                          View All Categories<i class="w-icon-angle-right"></i>
+                          View All Categories
+                          <i className="w-icon-angle-right"></i>
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <nav class="main-nav">
-                  <ul class="menu active-underline">
+                <nav className="main-nav">
+                  <ul className="menu active-underline">
                     <li>
                       <a href="demo1.html">Home</a>
                     </li>
-                    <li class="active">
+                    <li className="active">
                       <a href="shop-banner-sidebar.html">Shop</a>
 
-                      <ul class="megamenu">
+                      <ul className="megamenu">
                         <li>
-                          <h4 class="menu-title">Shop Pages</h4>
+                          <h4 className="menu-title">Shop Pages</h4>
                           <ul>
                             <li>
                               <a href="shop-banner-sidebar.html">
@@ -962,13 +976,13 @@ function Header() {
                             <li>
                               <a href="shop-horizontal-filter.html">
                                 Horizontal Filter
-                                <span class="tip tip-hot">Hot</span>
+                                <span className="tip tip-hot">Hot</span>
                               </a>
                             </li>
                             <li>
                               <a href="shop-off-canvas.html">
                                 Off Canvas Sidebar
-                                <span class="tip tip-new">New</span>
+                                <span className="tip tip-new">New</span>
                               </a>
                             </li>
                             <li>
@@ -987,7 +1001,7 @@ function Header() {
                           </ul>
                         </li>
                         <li>
-                          <h4 class="menu-title">Shop Layouts</h4>
+                          <h4 className="menu-title">Shop Layouts</h4>
                           <ul>
                             <li>
                               <a href="shop-grid-3cols.html">3 Columns Mode</a>
@@ -1018,7 +1032,7 @@ function Header() {
                           </ul>
                         </li>
                         <li>
-                          <h4 class="menu-title">Product Pages</h4>
+                          <h4 className="menu-title">Product Pages</h4>
                           <ul>
                             <li>
                               <a href="product-variable.html">
@@ -1054,17 +1068,17 @@ function Header() {
                             <li>
                               <a href="product-video.html">
                                 360<sup>o</sup> &amp; Video
-                                <span class="tip tip-new">New</span>
+                                <span className="tip tip-new">New</span>
                               </a>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <h4 class="menu-title">Product Layouts</h4>
+                          <h4 className="menu-title">Product Layouts</h4>
                           <ul>
                             <li>
                               <a href="product-default.html">
-                                Default<span class="tip tip-hot">Hot</span>
+                                Default<span className="tip tip-hot">Hot</span>
                               </a>
                             </li>
                             <li>
@@ -1157,7 +1171,7 @@ function Header() {
                       <a href="blog.html">Blog</a>
                       <ul>
                         <li>
-                          <a href="blog.html">Classic</a>
+                          <a href="blog.html">classNameic</a>
                         </li>
                         <li>
                           <a href="blog-listing.html">Listing</a>
@@ -1316,12 +1330,12 @@ function Header() {
                   </ul>
                 </nav>
               </div>
-              <div class="header-right">
-                <a href="#" class="d-xl-show">
-                  <i class="w-icon-map-marker mr-1"></i>Track Order
+              <div className="header-right">
+                <a href="#" className="d-xl-show">
+                  <i className="w-icon-map-marker mr-1"></i>Track Order
                 </a>
                 <a href="#">
-                  <i class="w-icon-sale"></i>Daily Deals
+                  <i className="w-icon-sale"></i>Daily Deals
                 </a>
               </div>
             </div>
